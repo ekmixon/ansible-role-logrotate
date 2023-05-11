@@ -4,3 +4,4 @@
 # make the necessary changes.
 molecule[docker] < 3
 pre-commit
+ansible>=5.0.0a1 # not directly required, pinned by Snyk to avoid a vulnerability
